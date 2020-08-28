@@ -8,7 +8,7 @@ const http = require('http').Server(app)
 const io = require('socket.io')(http)
 
 // Каталог веб-приложения на сервере
-app.use(express.static('public'))
+app.use(express.static("public"))
 
 /** Управление поведением каждого клиентского сокета */
 io.on('connection', (socket) => {

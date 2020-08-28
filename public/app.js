@@ -18,7 +18,7 @@ const vm = new Vue ({
     this.addNotification('Добро пожаловать! Генерация новой пары ключей...')
 
     // Инициализировать криптографический поток при помощи веб-работника
-    this.cryptWorker = new Worker('crypto-worker.js')
+    this.cryptWorker = new Worker('cryptoWorker.js')
 
     // Генерация пары ключей и вывод фрагмента ключа
     this.originPublicKey = await this.getWebWorkerResponse('generate-keys')
