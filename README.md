@@ -1,4 +1,4 @@
-Сайт для общения двух людей. Чат использует end-to-end шифрование и 2048-bit RSA ключ.
+Сайт для общения двух людей. Чат использует end-to-end шифрование и 2048-bit RSA ключ.</br>
 Проект на [https://dashboard.heroku.com/apps/diplom-chat-project](Heroku).
 ## Стек технологий
 
